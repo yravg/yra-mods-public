@@ -1,0 +1,4 @@
+node_modules/
+.claude/mods-logs/
+.DS_Store
+Thumbs.db

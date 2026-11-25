@@ -1,0 +1,9 @@
+# Third-party notices
+
+Packaging and original notes in this repository are MIT, Copyright (c) 2026 yravg.
+The mods below keep their own licenses.
+
+- `ribbon`: MIT, Copyright (c) 2026 Jay E | RoboNuggets (robonuggets.com). See `ribbon/LICENSE`. Homepage https://github.com/robonuggets/ribbon.
+- Outfit font embedded in `ribbon/hooks/font.ts`: SIL Open Font License 1.1, Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts). See `ribbon/OFL.txt`. The copyright note in `ribbon/hooks/font.ts` stays.
+- `playground-mods` (`blast-radius`, `replay-theater`, `token-weather`): unmodified copies of `claude-code/mods` from https://github.com/anthropics/claude-code-playground, Apache License 2.0. See `playground-mods/LICENSE`.
+- `token-saving-mods/plugins/model-router`: MIT, Copyright (c) 2025 Daniel (San) Ávila. Original path `cli-tool/components/mods/productivity/jev-model-router` in https://github.com/davila7/claude-code-templates. The copy notes a 2026-11-02 change that asks Haiku instead of Jev. See `token-saving-mods/plugins/model-router/LICENSE`.

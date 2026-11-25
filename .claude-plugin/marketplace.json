@@ -1,0 +1,34 @@
+{
+  "name": "yra-mods-public",
+  "owner": {
+    "name": "yravg"
+  },
+  "plugins": [
+    {
+      "name": "model-router",
+      "source": "./token-saving-mods/plugins/model-router",
+      "description": "Haiku picks a cheaper model tier for subagent tasks. MIT, Daniel (San) Avila, via davila7/claude-code-templates.",
+      "version": "0.6.0"
+    },
+    {
+      "name": "ribbon",
+      "source": "./ribbon",
+      "description": "A slim band above the prompt: usage left, reset times, and whether the prompt cache is warm or cold."
+    },
+    {
+      "name": "blast-radius",
+      "source": "./playground-mods/blast-radius",
+      "description": "Holds risky shell commands and shows what they would change, with Proceed and Cancel buttons."
+    },
+    {
+      "name": "replay-theater",
+      "source": "./playground-mods/replay-theater",
+      "description": "Step through the file edits Claude made in the last turn, one diff at a time."
+    },
+    {
+      "name": "token-weather",
+      "source": "./playground-mods/token-weather",
+      "description": "A live forecast of the context window, drawn above the prompt."
+    }
+  ]
+}
